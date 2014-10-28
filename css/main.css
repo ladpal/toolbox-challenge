@@ -1,0 +1,7 @@
+
+#game-board img {
+    width: 25%;
+    height: 25%;
+    padding: 5px;
+    box-sizing: border-box;/*takes into account padding and width and height so it fits like your javascript wants*/
+}
