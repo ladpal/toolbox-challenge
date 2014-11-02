@@ -13,7 +13,8 @@ h1 {
     font-size: 60px;
 }
 
-div {
+#start-game-elem,
+#help-elem  {
     display: inline-block;
 }
 
@@ -35,4 +36,8 @@ p {
 
 .container-fluid {
     padding: 5px;
+}
+
+.modal.in .modal-dialog {
+    z-index: 10000;
 }
